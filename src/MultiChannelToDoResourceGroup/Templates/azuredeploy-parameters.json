@@ -1,0 +1,27 @@
+﻿{
+    "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "siteName": {
+            "value": "mctodo5243"
+        },
+        "hostingPlanName": {
+            "value": "mctodo5243HostPlan"
+        },
+        "siteLocation": {
+            "value": "northeurope"
+        },
+        "repoUrl": {
+            "value": "https://github.com/agbrown-bp/ToDoApp"
+        },
+        "sqlServerName": {
+            "value": "mctodo5243-sqlserver"
+        },
+        "sqlServerLocation": {
+            "value": "northeurope"
+        },
+        "sqlServerAdminLogin": {
+            "value": "sqladmin5d18"
+        }
+    }
+}
